@@ -1,11 +1,20 @@
+<div align="center">
+
+   ![demo](./demo.gif)
+
+   [Watch terminal demo with audio](https://youtu.be/WZhmeDLJdK8)
+
+</div>
+
+
 🌊 **Be Water, My Friend.**
 
-> Empty your mind.  
-> Be formless, shapeless, like water.  
+> Empty your mind.   
+> Be formless, shapeless, like water.   
 > You put water into a cup, it becomes the cup.  
 > You put water into a bottle, it becomes the bottle.  
-> You put it into a teapot, it becomes the teapot.    
-> Now water can flow or it can crash.  
-> **BE WATER, MY FRIEND.**
+> You put it into a teapot, it becomes the teapot.   
+> Now water can flow or it can crash.   
+> **BE WATER, MY FRIEND.**   
 
 *(Bruce Lee 李小龙)*
