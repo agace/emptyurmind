@@ -185,7 +185,6 @@ static int init_player(PlayerState *state, const char *filename) {
         state->out_channels    = have.channels;
         SDL_PauseAudioDevice(state->audio_dev, 0);
 
-        int64_t dst_ch_layout = AV_CH_LAYOUT_STEREO;
         int dst_nb_channels = out_ch.nb_channels;
         state->max_dst_nb_samples = 0;
         int ret = av_samples_alloc_array_and_samples(
