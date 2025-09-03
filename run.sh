@@ -16,6 +16,12 @@ if ! command -v pkg-config >/dev/null 2>&1; then
         sudo dnf install -y pkg-config ffmpeg-devel SDL2-devel ncurses-devel
     elif [ -f /etc/arch-release ]; then
         sudo pacman -S --needed pkgconf ffmpeg sdl2 ncurses
+    elif [[ "$(uname)" == "Darwin" ]]; then
+      if ! command -v brew >/dev/null 2>&1; then
+        echo "Homebrew not found. Please install Homebrew first: https://brew.sh/"
+        exit 1
+      fi
+      brew install pkg-config ffmpeg sdl2
     else
         echo "Unsupported distro. Please install FFmpeg, SDL2, ncurses, and pkg-config manually."
         exit 1
